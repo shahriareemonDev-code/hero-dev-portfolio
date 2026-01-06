@@ -96,3 +96,24 @@ nav .menu a{
     margin-bottom: 30px;
 }
 
+/* section part start */
+#about{
+    padding-top: 130px;
+}
+
+#about .about-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+}
+.about-info{
+    display: flex;
+}
+#about{
+    /* background-color: #FFF8F3;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto; */
+}
