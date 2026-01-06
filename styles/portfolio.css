@@ -21,6 +21,9 @@
 /* main style */
 header{
     background-color: #FFF8F3;
+    background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+    background-position: top left, bottom right; 
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 
@@ -54,5 +57,42 @@ nav .menu a{
     padding: 18px 35px;
     border: none;
     border-radius: 5px;
-    
+    cursor: pointer;
 }
+
+/* Hero section start from here  */
+
+#hero{
+    margin: 46px 38px 0px 211px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero .hero-content{
+    max-width: 585px;
+}
+.hero-img img{
+    width: 585px;
+    height: 676px;
+    vertical-align: middle;
+}
+
+.hero-content h2{
+    color: #474747;
+    font-size: 45px;
+    font-weight:600 ;
+    margin-bottom: 5px;
+}
+.hero-content h1{
+    color: #181818;
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
